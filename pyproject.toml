@@ -8,8 +8,3 @@ authors = ["Matias Perichon <matias.perichon@hotmail.com>"]
 python = "^3.10"
 graphene = ">=3.0"
 flask = "^3.0.3"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
