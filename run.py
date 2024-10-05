@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from src.schema import schema  # Import your existing schema
+from tailr_backend.schema import schema  # Import your existing schema
 
 # Initialize Flask App
 app = Flask(__name__)
