@@ -24,6 +24,7 @@ def graphql_server():
     if result.errors:
         response["errors"] = [str(error) for error in result.errors]
     return jsonify(response)
+# Minor edit to trigger Git recognition of permission changes
 
 
 if __name__ == "__main__":
